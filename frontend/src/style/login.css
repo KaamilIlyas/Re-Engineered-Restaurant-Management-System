@@ -1,0 +1,76 @@
+.head {
+    background: #b6b6b6;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+    margin: -10px;
+    padding: 10px;
+    /* height: 1in; */
+  }
+  
+  .head img {
+    height: 0.6in;
+    width: 1.4in;
+    margin-left: 0.7in;
+  }
+  /* ------------------------------------------------------------------ */
+  .login-box {
+    /* I know */
+    height: fit-content;
+    width: 4in;
+    /* margin: auto; */
+    /* margin-top: 3in; */
+    /* align-items: center; */
+    padding: 0.4in;
+    /* transform: translate(-50%, -50%); */
+    background-color: white;
+    /* box-sizing: border-box; */
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-left: 4.9in;
+    margin-top: 2in;
+    margin-bottom: 1.5in;
+  }
+  
+  .login-box h2 {
+    color: black;
+    text-align: center;
+  }
+  
+  .login-box .indiv input {
+    width: 100%;
+    padding: 10px 0;
+    /* font-size: 16px; */
+    color: rgb(24, 0, 0);
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    background: transparent;
+  }
+  
+  .slink {
+    margin-top: 10px;
+  }
+  
+  .butt {
+    text-transform: uppercase;
+    background-color: #ff497c;
+    font-size: 16px;
+    letter-spacing: 4px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    margin-top: 4px;
+    padding: 10px;
+    transition: 0.5s;
+    width: 100%;
+    /* height: 0.3in; */
+  }
+  
+  .butt:hover {
+    transition: 0.5s;
+    background: white;
+    border-radius: 5px;
+    color: #ff497c;
+    box-shadow: 0 0 5px #ff497c, 0 0 5px #ff497c, 0 0 5px #ff497c, 0 0 5px #ff497c;
+    /* box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3); */
+  }
